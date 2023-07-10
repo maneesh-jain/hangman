@@ -5,4 +5,9 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## Milestone 1
 
+Set up Git and GitHub.
+
+## Milestone 2
+
 Built a list of 5 words and chosen a random word for the player to try and guess.
+Updated this Readme file with Milestones 1 & 2.
