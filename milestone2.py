@@ -1,9 +1,7 @@
 import random
 
 word_list = ['apple', 'banana', 'orange', 'cherry', 'mango']
-# print(word_list)
 word = random.choice(word_list)
-# print(word)
 guess = input('Enter a single letter: ')
 if len(guess) == 1 and guess.isalpha():
     print('Good guess!')

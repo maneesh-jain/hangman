@@ -9,5 +9,11 @@ Set up Git and GitHub.
 
 ## Milestone 2
 
-Built a list of 5 words and chosen a random word for the player to try and guess.
+Built a list of 5 words and chosen a random word for the user to try and guess.
 Updated this Readme file with Milestones 1 & 2.
+
+## Milestone 3
+
+Defined two separate functions to aid code readability: 
+- ask_for_input - to request input from the user and check it's a valid letter of the alphabet; this largely reused code from Milestone 2 
+- check_guess - to see if the user's letter is in the word to be guessed
