@@ -30,4 +30,14 @@ Created a Hangman *class* with the following *attributes*:
 
 The two existing functions were coded as *methods* and extended:
 - ask_for_input - now checks if the user has already guessed that letter
-- check_guess - now updates *word_guessed* attribute and deducts a life if the guess is wrong
+- check_guess - now updates attributes *word_guessed* if the guess is right, and *num_lives* if the guess is wrong
+
+## Milestone 5
+
+Added a *function* called *play_game* to run all the code of the game:
+- checks if user still has *num_lives* left to play
+- checks if there are still *num_letters* left to be guessed
+- checks if user still has *num_lives* and there are zero *num_letters* left to guess, the user has won!
+
+Bug fix:
+- formula for *num_lives* corrected
